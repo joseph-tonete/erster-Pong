@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Configuração padrão da página-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="imagens/exclamation.png">
+    <!--Definição do título e do arquivo em .js que muda o título conforme o tempo-->
+    <title id="titulo">Ping-pong! ■----</title>
+    <script src="pong_emoji.js"></script>
+    <script src=""></script>
+    <!--Declaração dos styles-->
+    <link href="pong_elements.css" rel="stylesheet">
+    <link href="pong_animations.css" rel="stylesheet">
+</head>
+<body>
+    <section>
+            <div id="button" onclick="startclick()"></div> 
+            <div id="start" >Start</div>
+            <div id="filter"></div>
+
+            <div id="score1">0</div>
+            <div id="divider"></div>
+            <div id="score2">0</div>
+
+            <div id="bola"></div>
+            <div id="bar1" class="barras"></div>
+            <div id="bar2" class="barras"></div>
+    </section>
+    <script src="pong.js"></script>
+</body>
+</html>

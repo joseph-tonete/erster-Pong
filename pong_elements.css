@@ -1,0 +1,97 @@
+@font-face {
+    font-family: pontuation;
+    src: url(fontes/MADEINFINITY\ PERSONALUSE-Light.otf);
+}
+body {
+    margin: 0 auto;
+    font-family: pontuation;
+}
+
+section {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+}
+
+.barras {
+    background-color: white;
+    width: 1vw;
+    height: 10vh;
+    
+}
+
+#bola {
+    position: absolute;
+    z-index: 2;
+    background-color: yellow;
+    width: 2vh;
+    height: 2vh;
+    margin: 49.5vh auto auto 49.5vw;
+}
+
+#start {
+    position : absolute;
+    z-index: 4;
+    width: 100vw;
+    text-align: center;
+    padding-top: 25vh;
+    font-size: 30vh;
+    text-shadow: 0px 0px 0px rgb(131, 131, 131);
+    color: white;
+}
+
+#button {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: 5;
+}
+
+#filter {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: 3;
+    backdrop-filter: blur(8px);
+    
+}
+
+#bar1 {
+    float: left;
+    margin: 45vh auto 0px 1vw;
+}
+
+#bar2 {
+    float: right;
+    margin: 45vh 1vw 0px auto;
+}
+
+#score1 {
+    position: absolute;
+    z-index: 1;
+    width: 49.5vw;
+    height: 100vh;
+    text-align: center;
+    font-size: 70vh;
+}
+
+#score2 {
+    position: absolute;
+    z-index: 1;
+    width: 49.5vw;
+    height: 100vh;
+    margin-left: 50vw;
+    text-align: center;
+    font-size: 70vh;
+}
+
+#divider {
+    position: absolute;
+    z-index: 0.5;
+    width: 1vw;
+    height: 92vh;
+    margin-top: 4vh;
+    margin-left: 49.5vw;
+    background-color: white;
+}
